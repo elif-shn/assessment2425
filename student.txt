@@ -1,0 +1,5 @@
+Student name: Elif
+Student number: 741144
+Student class: IT1A
+GitHub Repository:https://github.com/elif-shn/assessment2425.git
+GitHub Pages URL: https://github.com/elif-shn
