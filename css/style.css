@@ -1,4 +1,5 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
     width: 100%;
     max-width: 1000px;
@@ -10,8 +11,13 @@ img{
     height: auto;
 }
 p {
+  font-size: 1rem;
   letter-spacing: 2px;
   line-height: 1.6;
-  text-indent: 30px;
+  text-indent: 2em;
   word-spacing: 5px;/*There is a 5-pixel space between each word.*/
+  font-family: 'Roboto', sans-serif;
+}
+h1{
+  text-transform: uppercase;
 }
