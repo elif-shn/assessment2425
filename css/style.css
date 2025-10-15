@@ -1,14 +1,13 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
-    width: 100%;
-    max-width: 1000px;
-    margin: auto;
-    align-items: center;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
 img{
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 p, li{
   font-size: 1rem;
@@ -18,11 +17,34 @@ p, li{
   word-spacing: 5px;/*There is a 5-pixel space between each word.*/
   font-family: 'Roboto', sans-serif;
 }
+p::first-letter {
+  font-size: 2rem;
+  font-weight: bold;
+}
+#pages > p{
+  text-transform: uppercase;
+  text-align: center;
+}
+#header img{
+  position: relative;
+  float: left;
+  width: 80px;
+  height: auto;
+}
 #header li{
-  align-items: center;
-  margin: 1rem;
-  width: 250px;
+  float: left;
+  list-style-type: none;
+  margin-right: 2rem;
   background-color: #49BEAA;
+}
+#header{
+  position: sticky;
+  background-color: #fdfdfd;
+  padding: 1rem;
+  top: 0;
+}
+#intro img{
+  position: static;
 }
 h1{
   text-transform: uppercase;
@@ -38,7 +60,6 @@ a:hover {
   height: 64px;
   margin-bottom: 1rem;
 }
-
 #pages ul li header {
   font-size: 1.4rem;
   font-weight: 600;
@@ -53,4 +74,11 @@ a:hover {
   padding: 2rem;
   max-width: 220px;
   text-align: center;
+  list-style-type: none;
+}
+table tr:nth-child(even) {
+  background-color: #cff; 
+}
+table tr:nth-child(odd) {
+  background-color: #FFF; 
 }
