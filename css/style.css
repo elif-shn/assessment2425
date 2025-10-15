@@ -5,7 +5,6 @@
     background-color: #F4EDE4 ;
   }
 }
-
 @media screen and (min-width: 769px){
   body{
     padding: 1rem;
@@ -70,12 +69,13 @@ p::first-letter {
 }
 h1{
   text-transform: uppercase;
+  text-align: center
 }
-#header nav ul li a :visited {
-  color: #0000;
+#header nav ul li a:visited {
+  color: #F4EDE4;
 }
-#header nav ul li a :hover {
-  color: rgb(224, 100, 51);
+#header nav ul li a:hover {
+  color: #FF8C3F;
 }
 #pages ul{
   display: flex;
