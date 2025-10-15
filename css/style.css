@@ -27,7 +27,7 @@ p::first-letter {
 }
 #header{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   position: sticky;
   background-color:#49BEAA;
   border-radius: 50px;
