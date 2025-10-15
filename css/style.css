@@ -9,7 +9,7 @@ img{
   max-width: 100%;
   height: auto;
 }
-p, li{
+main p, li{
   font-size: 1rem;
   letter-spacing: 2px;
   line-height: 1.6em;
@@ -99,4 +99,15 @@ footer{
   border-top: 1px solid #ccc;
   margin: 2rem;
   padding: 1rem;
+}
+#cookie_message{
+  background-color: #49BEAA;
+  border-radius: 50px;
+  text-align: center;
+  position: relative;
+  z-index: 9999;
+}
+#cookie_message p{
+  font-size: 1rem;
+  color: #fff;
 }
