@@ -25,23 +25,34 @@ p::first-letter {
   text-transform: uppercase;
   text-align: center;
 }
+#header{
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  background-color:#49BEAA;
+  border-radius: 50px;
+  padding: 1rem;
+  top: 0;
+}
 #header img{
   position: relative;
   float: left;
-  width: 80px;
-  height: auto;
+  width: auto;
+  height: 50px;
 }
 #header li{
   float: left;
   list-style-type: none;
-  margin-right: 2rem;
-  background-color: #49BEAA;
+  margin-right: 5rem;
 }
-#header{
-  position: sticky;
-  background-color: #fdfdfd;
+#header ul {
+  list-style: none;
+}
+#header nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
   padding: 1rem;
-  top: 0;
 }
 #intro img{
   position: static;
@@ -81,4 +92,11 @@ table tr:nth-child(even) {
 }
 table tr:nth-child(odd) {
   background-color: #FFF; 
+}
+footer{
+  display: flex;
+  justify-content:space-around;
+  border-top: 1px solid #ccc;
+  margin: 2rem;
+  padding: 1rem;
 }
