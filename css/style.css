@@ -1,5 +1,16 @@
 /* add all items from grading group 3 and 4. Search for items in group 5 that refer to css f.e. z index */ 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@media screen and (max-width: 768px) {
+  body {
+    background-color: #F4EDE4 ;
+  }
+}
+
+@media screen and (min-width: 769px){
+  body{
+    padding: 1rem;
+  }
+}
 body {
   width: 100%;
   max-width: 1000px;
@@ -60,11 +71,15 @@ p::first-letter {
 h1{
   text-transform: uppercase;
 }
-a:visited {
-  color: rgb(162, 9, 162);
+#header nav ul li a :visited {
+  color: #0000;
 }
-a:hover {
+#header nav ul li a :hover {
   color: rgb(224, 100, 51);
+}
+#pages ul{
+  display: flex;
+  justify-content:space-around;
 }
 #pages ul li img {
   width: 64px;
@@ -110,4 +125,14 @@ footer{
 #cookie_message p{
   font-size: 1rem;
   color: #fff;
+}
+fieldset{
+  display:flex;
+  flex-direction: column;
+  width: 600px;
+  gap:1.5rem;
+  border: 2px dotted #49BEAA;
+  border-radius: 1rem;
+  background-color: #f9f9f9;
+  padding: 2rem;
 }
