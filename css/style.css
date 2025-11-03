@@ -9,6 +9,11 @@
     display: flex;
     justify-content: center;
   }
+  fieldset {
+    width: 90%;            
+    padding: 1rem;     
+    gap: 1rem;
+  }
 
 }
 @media screen and (min-width: 769px){
