@@ -14,12 +14,15 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: auto;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  word-spacing: 3px;
 }
 img{
   max-width: 100%;
   height: auto;
 }
-main p, li{
+main p, main li{
   font-size: 1rem;
   letter-spacing: 2px;
   line-height: 1.6em;
@@ -37,6 +40,8 @@ p::first-letter {
 }
 #header{
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: flex-start;
   position: sticky;
   background-color:#49BEAA;
@@ -49,6 +54,13 @@ p::first-letter {
   float: left;
   width: auto;
   height: 50px;
+}
+#header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 #header li{
   float: left;
@@ -76,6 +88,7 @@ h1{
 }
 #pages ul{
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-around;
 }
 #pages ul li img {
@@ -107,6 +120,7 @@ table tr:nth-child(odd) {
 }
 footer{
   display: flex;
+  flex-wrap: wrap;
   justify-content:space-around;
   border-top: 1px solid #ccc;
   margin: 2rem;
